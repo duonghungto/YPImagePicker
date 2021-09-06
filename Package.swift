@@ -18,7 +18,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(name:"SteviaLayout", url: "https://github.com/freshOS/Stevia", .upToNextMajor(from: "4.7.3")),
+        .package(name:"Stevia", url: "https://github.com/freshOS/Stevia", .upToNextMajor(from: "4.7.3")),
         .package(name:"PryntTrimmerView", url: "https://github.com/HHK1/PryntTrimmerView", .upToNextMajor(from: "4.0.2")),
     ],
     targets: [
@@ -27,7 +27,7 @@ let package = Package(
         .target(
             name: "YPImagePicker",
             dependencies: [
-                "SteviaLayout",
+                "Stevia",
                 "PryntTrimmerView"
             ],
             path: "Source",
