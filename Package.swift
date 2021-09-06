@@ -30,7 +30,6 @@ let package = Package(
                 "Stevia",
                 "PryntTrimmerView"
             ],
-            path: "Source",
             resources: [
                 .process("Resources"),
             ]),
